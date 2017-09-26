@@ -18,8 +18,4 @@ setInterval(function() {
   console.log("totalHashes ", totalHashes)
   $('.mined').html(totalHashes)
   $('.rate').html(hashesPerSecond)
-
-
-
-  // Output to HTML elements...
 }, 1000);
